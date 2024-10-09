@@ -2,7 +2,7 @@
 
 Посмотрим, чем отличается AArch64 от x86. AArch64 - RISC архитектура, x86 - CISC. Подробнее - в слайдах лекции!
 
-![image.png](attachment:image.png)
+![alt text](image.jpg "Title")
 
 ## <a name="install_instr"></a> Установка инструментов
 1) Устанавливаем компилятор:
