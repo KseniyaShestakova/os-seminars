@@ -1,11 +1,15 @@
 
 #include <signal.h>
 #include <stdio.h>
+
+void f(int) {
+    printf("SIGTERM received\n");
+}
  
 int main(void)
 {
     /* ignoring the signal */
-    signal(SIGTERM, SIG_IGN);
+    signal(SIGTERM, &f);
     raise(SIGTERM);
     printf("Exit main()\n");
 }
